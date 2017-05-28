@@ -111,10 +111,8 @@
 	}
 
 	.nav {
-		margin-top: 70px;
-		border-top: 1px solid white;
-		width: 40%;
-		float: right;
+		margin-top: 68px;
+		width: 100%;
 	}
 
 	.nav li:last-child {
@@ -126,7 +124,8 @@
 	}
 
 	.mobile-nav {
-		display: none
+		display: none;
+		opacity: 0.95;
 
 	}
 
@@ -136,4 +135,6 @@
 
 	div.nav-expanded {
 		display: block;
+		opacity: 0.95;
 	}
+}
