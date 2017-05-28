@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: "Gibson";
-    src: url('../Gibson-SemiBold.otf');
+    font-family: "Lemon Milk";
+    src: url('../LemonMilk.otf');
 }
 
 
@@ -28,7 +28,7 @@ body {
 .bg {
     background-color: rgba(250, 250, 250, 0.85);
     padding: 0 15px 15px 15px;
-    margin:  0;
+    margin:  15px 0 0 0;
 }
 
 /*--------------------- TYPOGRAFIE ---------------------*/
@@ -37,8 +37,7 @@ body {
 h3 {
     margin-top: 25px;
     margin-bottom: 15px;
-    font-family: Gibson;
-    letter-spacing: 0.005rem;
+    font-family: Avenir;
 }
 
 h2, h3 {
@@ -59,9 +58,10 @@ img {
 /*--------------------- NAVIGATIE ---------------------*/
 
 .nav {
-    font-family: Gibson;
+    font-family: Avenir;
     list-style:none;
     background-color: #26262a;
+    letter-spacing: 0.005rem;
     padding:0;
     margin:0;
 }
@@ -82,7 +82,6 @@ img {
 
 .nav a:hover { 
     color: grey;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 
@@ -178,6 +177,9 @@ li:nth-child(5) a {
     height: 100%;
 }
 
+.event a {
+    color: #FEE500;
+}
 /*--------------------- NIEUWS ---------------------*/
 
 .artikel {
@@ -207,6 +209,10 @@ a.lees {
 
 #footerhrechts {
   color: #FEE500;
+}
+
+.footer-a {
+    color: #FEE500;
 }
 /*--------------------- FORMULIER ---------------------*/
 

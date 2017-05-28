@@ -15,6 +15,10 @@
   float: left;
 }
 
+.albuminfo h3 {
+    margin-top: 10px;
+}
+
 /*BIOGRAFIE*/
 
 .biografie {
@@ -51,7 +55,7 @@ p.quote {
 }
 
 p.artist {
-    font-size: 0.8em;
+    font-size: 1.6rem;
     color: grey;
     margin: 0;
 }
