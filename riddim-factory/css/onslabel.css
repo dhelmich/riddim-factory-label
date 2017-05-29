@@ -1,0 +1,14 @@
+.logo.onslabel {
+	width: auto;
+	height: 300px;
+	padding: 15px;
+	margin-top: 50px;
+}
+
+/*--------------------- MEDIA QUERIES ---------------------*/
+
+@media only screen and (max-width: 768px) {    
+    .logo.onslabel {
+      display: none;
+    }
+}

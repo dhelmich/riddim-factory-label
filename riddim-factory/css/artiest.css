@@ -1,0 +1,145 @@
+/*TYPORGAFIE*/
+
+.header {
+    background-color: lightgrey;
+    margin: 35px 0 0 0;
+    padding: 15px 150px 15px 50px;
+    overflow: auto;
+}
+
+.artistlogo {
+  float: right;
+}
+
+.info {
+  float: left;
+}
+
+/*BIOGRAFIE*/
+
+.biografie {
+    width: 70%;
+    margin: 0;
+}
+
+/*LAATSTE RELEASE*/
+
+.albuminfo {
+    background-color: lightgrey;
+    padding: 15px;
+    overflow: auto;
+}
+
+/*TYPOGRAFIE*/
+
+span {
+    font-weight: 600;
+}
+
+p.quote {
+    font-size: 2.4rem;
+    margin-top: 15px;
+}
+
+.website {
+    text-decoration: none;
+    color: grey;
+}
+
+.album {
+    border: 15px solid grey;
+}
+
+p.artist {
+    font-size: 0.8em;
+    color: grey;
+    margin: 0;
+}
+
+.releasedatum {
+    font-weight: 600;
+}
+
+iframe {
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+.buttons {
+    width: 100%;
+}
+
+button {
+    display: inline-block;
+    height: 44px;
+    padding: 0 30px;
+    color: #26262a;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #26262a;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #26262a;
+    transition: 0.3s ease-out;
+}
+
+/*--------------------- MEDIA QUERIES ---------------------*/
+
+@media only screen and (max-width: 768px) {
+
+    .header {
+        padding: 15px;
+    }
+
+    img {
+        max-width: 50%;
+
+    }
+
+    .biografie {
+        width: 100%;
+    }
+    
+    p.artist {
+        margin-top: 15px
+    }
+
+    .album {
+        width: 100%;
+    }
+
+    .four.columns {
+        width: 200%;
+    }
+}
+
+@media (max-width: 550px) {
+    .artistlogo img {
+        width: 400px;
+        height: auto;
+        margin: auto;
+    }
+
+    .three.columns {
+        width: 100%;
+    }
+
+    .header {
+        background-color: lightgrey;
+        margin: 35px auto 0 auto;
+        padding: 15px 15px 15px 15px;
+        overflow: auto;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
